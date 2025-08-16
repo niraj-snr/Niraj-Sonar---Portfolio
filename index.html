@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Niraj Sonar | Frontend Developer</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="cursor"></div>
+
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">NS</a>
+      <nav class="nav">
+        <ul>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#work" class="nav-link">Work</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Add this to your hero section -->
+    <section class="hero">
+      <div class="video-background">
+        <!-- Fallback image for mobile/performance -->
+        <div class="video-fallback"></div>
+        <!-- Video element (hosted or embedded) -->
+        <video autoplay muted loop playsinline>
+          <source src="assets/logos/background video.mp4" type="video/mp4">
+          <!-- Add WebM version for better browser support -->
+          <source src="assets/logos/background video.mp4" type="video/webm">
+        </video>
+      </div>
+
+      <div class="container hero-content">
+        <h1 class="hero-title">
+          <span class="line">Hello, I'm</span>
+          <span class="line">Niraj Sonar</span>
+        </h1>
+        <p class="hero-subtitle">Frontend Developer crafting digital experiences</p>
+        <a href="#work" class="btn">
+          View my work
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>I'm a frontend developer specializing in building modern web experiences with HTML, CSS, and JavaScript.
+            </p>
+            <p>My approach combines clean code with thoughtful design, creating interfaces that are both functional and
+              visually appealing.</p>
+            <p>I leverage modern tools and AI-assisted workflows to deliver efficient solutions.</p>
+          </div>
+          <div class="skills">
+            <h3>Skills & Technologies</h3>
+            <ul class="skills-list">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>Responsive Design</li>
+              <li>Git</li>
+              <li>AI Tools</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section work">
+      <div class="container">
+        <h2 class="section-title">Selected Work</h2>
+        <div class="projects">
+          <div class="project-card">
+            <div class="project-image">
+              <div class="placeholder"><img src="assets/projects/tic.png" alt="" srcset=""></div>
+            </div>
+            <div class="project-info">
+              <h3>Tic-Tac-Toe Game</h3>
+              <p>A responsive two-player game with win logic and reset functionality.</p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <a href="https://github.com/niraj-snr/Tic-Tac-Toe" class="project-link">View Project</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <div class="placeholder"><img src="assets/projects/yt.png" alt="" srcset=""></div>
+            </div>
+            <div class="project-info">
+              <h3>YouTube UI Clone</h3>
+              <p>A static clone of YouTube's homepage focusing on layout accuracy.</p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+              <a href="https://github.com/niraj-snr/YouTube-UI-Clone" class="project-link">View Project</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <div class="placeholder"><img src="assets/projects/1 CACL.png" alt="" srcset=""></div>
+            </div>
+            <div class="project-info">
+              <h3>Calculator App</h3>
+              <p>A fully functional calculator with basic arithmetic operations and responsive design.</p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <a href="https://github.com/niraj-snr/-Simple-Calculator" class="project-link">View Project</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <div class="placeholder"><img src="assets/projects/to do 1.png" alt="" srcset=""></div>
+            </div>
+            <div class="project-info">
+              <h3>To-Do List</h3>
+              <p>Task management app with add, delete, and mark-as-complete functionality.</p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>LocalStorage</span>
+
+              </div>
+              <a href="https://github.com/niraj-snr/To-Do-List" class="project-link">View Project</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-text">I'm currently looking for new opportunities. Whether you have a question or just want to
+          say hi, I'll do my best to get back to you!</p>
+        <a href="mailto:snrniraj6060@.com" class="btn">
+          Say Hello
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Designed & Built by Niraj Sonar</p>
+      <div class="social-links">
+        <a href="https://linkedin.com/in/niraj-sonar" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/niraj-snr" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>
