@@ -1,6 +1,6 @@
 # 🚀 Niraj Sonar - Portfolio
 
-**[Live Demo](https://niraj-snr.github.io/portfolio/)** | **[GitHub](https://github.com/niraj-snr)**
+**[Live Demo](https://niraj-snr.github.io/Niraj-Sonar-Portfolio/)** | **[GitHub](https://github.com/niraj-snr)**
 
 A modern, responsive portfolio showcasing my frontend development projects and skills.
 
